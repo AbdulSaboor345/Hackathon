@@ -1,0 +1,103 @@
+/* Styling the body  */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 150px;
+}
+
+/* Styling the resume container  */
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 28px black;
+}
+
+/* Styling the Left Section  */
+.left-section {
+    background-color: #556B2F;
+    color: #F5F5DC;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #800000;
+}
+
+/* Styling all sections headings  */
+h3, h5{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #556B2F;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #708090;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Styling h1 element  */
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #556B2F;
+}
+
+/* Styling Profile pic  */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #800000;
+    margin-bottom: 20px;
+}
+
+/* Styling unordered list  */
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin:  10px 0;
+}
+
+/* styling the ul elemnts  */
+ul li {
+    margin: 5px 0;
+}
+
+/* Styling the entire right section  */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    background-color: #F5F5DC;
+    color: #556B2F;
+}
+
+/* Styling the toggle button  */
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #708090;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #F5F5DC;
+    border: 0 solid #f5f5dcf0;
+    color: #556B2F;
+    width: 250px;
+    height: 40px;
+}
+
+/* Adding Hover effect */
+button:hover {
+    background-color: rgb(147, 147, 147);
+    transform: scale(1.08); 
+}
+
+#skills {
+    display: none;
+}
